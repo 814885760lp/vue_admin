@@ -8,3 +8,9 @@ export function login(params) {
     params
   })
 }
+
+export function getMenuList() {
+  return request({
+    url: 'menus'
+  })
+}
